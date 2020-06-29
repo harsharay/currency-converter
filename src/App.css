@@ -2,37 +2,74 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  color: #0c1b33;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .from-currency-block {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-top: 40px;
+  height: 15vh;
+  background-color: red;
+} */
+
+.currency-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%; 
+  margin-top: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.from-block {
+  margin-left: 90px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.from-block,.to-block {
+  margin-right: 40px;
+  width: 100px;
+  /* box-shadow: 0px 3px 1 0px #888888;
+  background-color: gray; */
+}
+
+.from-block select, .to-block select {
+  height: 40px;
+  width: 80px; 
+  outline: none;
+  border: 2px solid #0c1b33;
+  border-radius: 24px;
+}
+
+.from-block select-selected, .to-block select-selected {
+  background-color: red;
+}
+
+.currency-block button {
+  height: 100%;
+  margin-top: 55px;
+  margin-left: 50px;
+}
+
+
+.equals{
+  font-size: large;
+  margin-top: 25px;
+}
+
+.output h1 {
+  font-size: xx-large;
+  color: #b33f62;
+}
+
+.output h3 {
+  color: #0c0a3e;
+}
+
+.footer {
+  font-weight: 600;
+  color: #f9564f;
+  margin-top: 90px;
 }
