@@ -133,6 +133,7 @@ function Converter() {
                 <p>How to use?</p>
                 <p>1. Enter a value into the field</p>
                 <p>2. Select the conversion values both <em><strong>from and to</strong></em></p>
+                <p>For all the currencies and abbrevations, refer <a href="https://www.easymarkets.com/int/learn-centre/discover-trading/currency-acronyms-and-abbreviations/" target="_blank">here</a></p>
             </footer>
         </div>
     )

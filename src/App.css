@@ -73,3 +73,7 @@
   color: #f9564f;
   margin-top: 90px;
 }
+
+footer a {
+  text-decoration: none;
+}
