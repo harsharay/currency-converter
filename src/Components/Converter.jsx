@@ -1,5 +1,6 @@
 import React,{ useState,useEffect } from 'react';
 import { TextField,Button } from  "@material-ui/core";
+import { data } from "../Data/CurrencyData";
 
 function Converter() {
     
