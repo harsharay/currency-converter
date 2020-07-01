@@ -56,12 +56,12 @@ function Converter() {
             if(name==="from_currentValue"){
                 return {
                     ...prevVal,
-                    from_currentValue: newVal
+                    from_currentValue: newVal.slice(0,3)
                 }
             } else if(name==="to_currentValue"){
                 return {
                     ...prevVal,
-                    to_currentValue: newVal
+                    to_currentValue: newVal.slice(0,3)
                 }
             }
         })
@@ -99,10 +99,10 @@ function Converter() {
                 <div className="from-block">
                     <h2 className="from-h2">From</h2>
                     <div>
-                        <select id="from-menu" onChange={handleChange} name="from_currentValue">
+                        <select id="from-menu" onChange={handleChange} name="from_currentValue" value={state.from_currentValue}>
                         {state.currencies.map((item,index) => {
                             return (
-                                <option key={index}>{item}</option>
+                                <option key={index}>{item}-{data[item]}</option>
                             )
                         })}
                         </select>
@@ -111,10 +111,10 @@ function Converter() {
                 <div className="to-block">
                     <h2 className="to-h2">To</h2>
                     <div>
-                        <select id="to-menu" onChange={handleChange} name="to_currentValue">
+                        <select id="to-menu" onChange={handleChange} name="to_currentValue" value={state.to_currentValue}>
                         {state.currencies.map((item,index) => {
                             return (
-                                <option key={index}>{item}</option>
+                                <option key={index}>{item}-{data[item]}</option>
                             )
                         })}
                         </select>

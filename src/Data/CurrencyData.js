@@ -30,5 +30,6 @@ export const data = {
     ILS : "Israeli New Shekel",
     GBP : "Pound sterling",
     KRW : "South Korean won",
-    MYR : "Malaysian Ringgit"
+    MYR : "Malaysian Ringgit",
+    DKK : "Danish Krone"
 }
