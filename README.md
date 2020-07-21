@@ -3,4 +3,4 @@ Live Demo can be checked out here https://github.com/harsharay/currency-converte
 ![Website Preview](https://github.com/harsharay/Movie_Search/blob/master/currency-converter.png)
 
 
-A currency converter webiste using React. This website uses external API to fetch the details of various currencies including their exchange rates. 
+A currency converter webiste using React. This website uses external API to fetch the details of various currencies including their exchange rates.
